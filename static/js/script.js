@@ -84,9 +84,15 @@ $(function(){
 		$('#main-menu ul#language-logout-bar .dropdown').find('.item-box').hide();
 	//	return false;
 	});
+
+	// ------------------- Login Mobile Toggle ------------------------
+
+	$('#nav-mobile-login').click(function() {
+		$(document).find('#login-area').toggle();
+	});
 	
+
 	// ------------------- Pages 12 - 14 ------------------------
-	
 	
 	
 	$('.sprofile-link').click(function(){

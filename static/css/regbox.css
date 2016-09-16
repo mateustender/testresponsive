@@ -242,4 +242,75 @@
     position:relative;
 }
 
+/*e-dialog customized*/
 
+/* Registration Box Mobile */
+
+#reg-box-mobile {
+    display: none;
+}
+
+@media only screen and (max-width : 1000px) {
+    #reg-box {
+        right: 0px
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width : 768px) {
+
+    /*Registration Box*/
+    #reg-box {
+        width: 90%;
+    }
+
+    #reg-box-mobile {
+        display: block;
+    }
+
+    div#h-slider + #reg-box {
+        display: none;
+    }
+
+    #reg-box {
+        position: static;
+    }
+
+    #reg-box .title {
+        height: auto;
+    }
+
+    #reg-box h3 {
+        font-size: 20px;
+        padding: 12px;
+    }
+
+    .reg-box-style {
+        margin: 0 auto;
+    }
+
+    #reg-box fieldset {
+        padding: 30px 30px 20px 30px;
+    }
+
+    /*Select*/
+    #reg-box input, #reg-box select, #reg-box .l2112select, #param_salutation {
+        height: 30px;
+        margin-bottom: 20px;
+        padding: 4px 4px 4px 5px;
+        line-height: 160%;
+    }
+
+    #quickRegForm .input-middle {
+        height: 30px;
+        width: 100% !important;
+        padding-left: 0;
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 621px) and (max-width: 768px) {
+    #reg-box fieldset {
+        padding: 10px 15px 0 10px;
+    }
+}

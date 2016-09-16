@@ -1275,3 +1275,26 @@ div.tenderOverlay {
     float: left;
     width: 298px;
 }
+
+
+@media only screen and (min-width: 320px) and (max-width : 768px) { 
+        /*Select*/
+    .hasDatepicker {
+        padding: 4px 4px 4px 0 !important;
+        font-size: 16px;
+    
+    }
+    
+    .more-link {
+        background: url("../images/li-arrow-s.png") no-repeat left 6px;
+    }
+
+
+    .more-link:hover {
+        background: url("../images/li-arrow-s.png") no-repeat left -8px;
+    }
+
+    .sp-news .title, ul.dots {
+        font-size: 16px;
+    }
+}
