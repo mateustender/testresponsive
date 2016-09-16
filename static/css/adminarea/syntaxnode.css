@@ -1,0 +1,87 @@
+.syntaxNode {
+    margin: 5px 0 5px 20px;
+    border: 1px dotted #aaa;
+    padding: 3px;
+}
+
+.entity {
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.entityField {
+    border: 1px solid #aaa;
+    padding: 1px;
+    font-size: 11px;
+    font-family: monospace;
+}
+
+.syntaxTreeContainer {
+    margin: 5px;
+    border: 1px solid #999;
+    padding: 5px;
+    background-color: #ddd;
+}
+
+.operatorOR {
+    font-family: monospace;
+    color: #0000aa;
+}
+
+.operatorAND {
+    font-family: monospace;
+    color: #00aa00;
+}
+
+.operatorNOT {
+    font-family: monospace;
+    color: #aa0000;
+}
+
+.solrField {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.word {
+    font-size: 10px;
+}
+
+.displaySyntax {
+    float: left;
+    color: #a8a8a8;
+}
+
+.displaySyntaxActive {
+    float: left;
+    color: #000;
+    background-color: #bbb;
+}
+
+.syntaxTreeMenu {
+    margin: 3px 0 3px 0;
+    padding: 3px;
+}
+
+.evenNode {
+    background-color: #eeeeee;
+}
+
+.oddNode {
+    background-color: #dddddd;
+}
+
+.errorContainer {
+    background-color: #fff7a7;
+    color: #cc0000;
+    font-size: 11px;
+    padding: 3px;
+    margin: 5px 0 5px 0;
+}
+
+.errorContainerHeader {
+    color:#cc0000;
+    font-weight: bold;
+    margin:1px 0 5px 0;
+}

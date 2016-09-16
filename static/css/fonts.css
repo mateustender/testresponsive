@@ -1,0 +1,77 @@
+/*   Application-wide fonts */
+@font-face {
+	font-family: 'Rockwell';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/rockwell.eot');
+	src: url('../fonts/rockwelld41d.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/rockwell.woff') format('woff'),
+		 url('../fonts/rockwell.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Rockwell';
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/rockwell-bold.eot');
+	src: url('../fonts/rockwell-boldd41d.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/rockwell-bold.woff') format('woff'),
+		 url('../fonts/rockwell-bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/Bitter-extended.woff') format('woff');
+}
+@font-face {
+	font-family: 'Bitter';
+	font-style: italic;
+	font-weight: normal;
+	src: url('../fonts/Bitter-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/Bitter-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'LucidaSans';
+	font-weight: normal;
+	src: url('../fonts/lucidasans.eot');
+	src: url('../fonts/lucidasansd41d.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/lucidasans.woff') format('woff'),
+	     url('../fonts/lucidasans.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'LucidaSans';
+	font-weight: bold;
+	src: url('../fonts/lucidasans-bold.eot');
+	src: url('../fonts/lucidasans-boldd41d.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/lucidasans-bold.woff') format('woff'),
+	     url('../fonts/lucidasans-bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'LucidaGrande';
+	font-weight: normal;
+	src: url('../fonts/LucidaGrande.eot');
+	src: url('../fonts/LucidaGranded41d.eot?#iefix') format('embedded-opentype'), 
+	     url('../fonts/LucidaGrande.woff') format('woff'), 
+	     url('../fonts/LucidaGrande.ttf') format('truetype'); 
+}
+
+@font-face {
+	font-family: 'LucidaGrande';
+	font-weight: bold;
+	src: url('../fonts/LucidaGrande-Bold.eot');
+	src: url('../fonts/LucidaGrande-Boldd41d.eot?#iefix') format('embedded-opentype'), 
+	     url('../fonts/LucidaGrande-Bold.woff') format('woff'), 
+	     url('../fonts/LucidaGrande-Bold.ttf') format('truetype'); 
+}
+
+
+

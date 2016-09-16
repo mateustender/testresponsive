@@ -1,0 +1,568 @@
+/* #### DEFAULT (GRAY) BUTTONS ###################*/
+.button {
+
+	display: -moz-inline-box;
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	font-size: 0;
+	line-height: 0;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	height: 38px;
+	text-decoration: none;
+	color: #30a4dc;
+	font-style: normal;
+	margin: 0 10px 0px 0;
+	padding: 0 6px 0 0;
+	vertical-align: middle;
+
+	padding-top: -2px;
+	_position: relative;
+	_width: 10px;
+	_overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.button, div.button, span.button,
+.button input, span.button button, span.button input {
+	background-image: url(../../images/adminarea/buttons.png);
+}
+
+.button input {
+	white-space: nowrap;
+	cursor: pointer;
+	color: #30a4dc;
+	display: -moz-inline-box;
+	display: inline-block;
+	line-height: 1;
+	letter-spacing: 0 !important;
+	font-size: 12px !important;
+	font-style: normal;
+	background-color: transparent;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	height: 38px;
+	padding: 0px 20px 0 10px;
+	margin: 0 -16px 0 10px;
+	border: none;
+	vertical-align: text-top;
+	zoom: 1;
+	_position: relative;
+	_padding-left: 0px;
+	_padding-right: 12px;
+	_margin-right: -10px;
+	_display: block;
+	_top: 0;
+	_right: -7px;
+
+}
+
+/*Hover Style*/
+
+.button:hover {
+	background-position: 0 -60px;
+	color: #30a4dc;
+	text-decoration: none;
+}
+
+.button:hover span,
+.button:focus span {
+	background-position: 100% -60px;
+}
+
+.button input:hover {
+	color: #3bb3f5;
+	background-position: 100% -60px;
+}
+
+.button:active, .button:focus span {
+	color: #30a4dc;
+}
+
+.button * {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* #### GRAY BUTTON ###################*/
+a.button_gray {
+	height: 38px !important;
+}
+
+a.button_gray span {
+	line-height: 28px !important;
+}
+
+a.button_gray:hover {
+	background-position: right -60px !important;
+}
+
+a.button_gray span {
+	background-position: 0 -60px !important;
+}
+
+/* #### TEXT ONLY  BUTTONS ###################*/
+.button_textonly, div.button_textonly, span.button_textonly,
+.button_textonly input, span.button_textonly button, span.button_textonly input,
+a.button_textonly span,
+a.button_textonly {
+	background-image: none !important;
+	display: inline !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	height: auto !important;
+	width: auto !important;
+	font-weight: normal !important;
+	font-size: 11px !important;
+	color: #30A4DC !important;
+	text-transform: none !important;
+	float: none !important;
+	line-height: 15px !important;
+	vertical-align: baseline !important;
+	text-decoration: underline !important;
+}
+
+/* #### LINK BUTTONS ###################*/
+
+a.button {
+	background: transparent url('../../images/adminarea/buttons.png') no-repeat scroll top right;
+	color: #444;
+	display: block;
+	float: left;
+	font-size: 12px;
+	height: 24px;
+	margin-right: 6px;
+	padding-right: 18px; /* sliding doors padding */
+	text-decoration: none;
+	margin-bottom: 9px;
+	margin-left: 2px;
+}
+
+a.button span {
+	background: transparent url('../../images/adminarea/buttons.png') no-repeat;
+	display: block;
+	line-height: 14px;
+	padding: 5px 0 5px 18px;
+	margin-left: -4px;
+}
+
+a.button_blue {
+	background-position: right -117px;
+	padding-right: 12px;
+}
+
+a:hover.button_blue {
+	background-position: right -147px;
+}
+
+a.button_blue span {
+	color: #fff;
+	background-position: left -117px;
+	padding-left: 12px;
+}
+
+a:hover.button_blue span {
+	background-position: left -147px;
+}
+
+.button_blue input,
+.button_blue * {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px !important;
+}
+
+/* #### BLUE BUTTONS (OVERRIDES DEFAULT BUTTON STYLE) ###################*/
+
+.button_blue {
+	background-position: 0 -117px;
+}
+
+.button_blue:hover {
+	background-position: 0 -147px;
+}
+
+.button_blue input {
+	background-position: 100% -117px;
+	padding: 0 9px 0 0px;
+}
+
+.button_blue:hover input {
+	background-position: 100% -147px;
+}
+
+.button_blue,
+.button_blue:hover,
+.button_blue input,
+.button_blue input:hover,
+.button:active, .button:focus span {
+	color: #fff;
+}
+
+.button_blue:hover span,
+.button_blue:focus span {
+	background-position: 100% -147px;
+}
+
+.button_blue,
+.button_blue input {
+	height: 23px;
+}
+
+/* ####  ACTION BUTTONS  ###################*/
+
+.buttons {
+	background: #fff none;
+	border: none;
+	color: #666;
+	font-size: 10px;
+	margin-top: 5px;
+	padding: 0;
+}
+
+.buttons input {
+	background: #fff;
+	border: 0;
+	color: #333;
+	cursor: pointer;
+	font-size: 10px;
+	font-weight: bold;
+	margin-left: 3px;
+	overflow: visible;
+	padding: 2px 6px;
+}
+
+.buttons input.delete {
+	background: transparent url(../../images/skin/database_delete.png) 5px 50% no-repeat;
+	padding-left: 28px;
+}
+
+.buttons input.edit {
+	background: transparent url(../../images/skin/database_edit.png) 5px 50% no-repeat;
+	padding-left: 28px;
+}
+
+.buttons input.save {
+	background: transparent url(../../images/skin/cancel.png) 5px 50% no-repeat;
+	padding-left: 28px;
+}
+
+.button-wrapper-align-left,
+.button-align-left {
+	float: left;
+}
+
+.button-wrapper-align-right,
+.button-align-right {
+	float: right;
+}
+
+.button-align-inline {
+	float: none;
+	display: inline;
+}
+
+.button-not-inline {
+	float: none !important;
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+.button-not-inline .clearme {
+	clear: both;
+	float: none;
+	display: block;
+}
+
+.registerHomeImageLink a {
+	position: absolute;
+	width: 732px !important;
+	height: 212px !important;
+	display:block!important;
+	text-indent:-424242px;
+}
+/* #### DEFAULT (GRAY) BUTTONS ###################*/
+.button {
+
+	display: -moz-inline-box;
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	font-size: 0;
+	line-height: 0;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	height: 38px;
+	text-decoration: none;
+	color: #30a4dc;
+	font-style: normal;
+	margin: 0 10px 0px 0;
+	padding: 0 6px 0 0;
+	vertical-align: middle;
+
+	padding-top: -2px;
+	_position: relative;
+	_width: 10px;
+	_overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.button, div.button, span.button,
+.button input, span.button button, span.button input {
+	background-image: url(../../images/adminarea/buttons.png);
+}
+
+.button input {
+	white-space: nowrap;
+	cursor: pointer;
+	color: #30a4dc;
+	display: -moz-inline-box;
+	display: inline-block;
+	line-height: 1;
+	letter-spacing: 0 !important;
+	font-size: 12px !important;
+	font-style: normal;
+	background-color: transparent;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	height: 38px;
+	padding: 0px 20px 0 10px;
+	margin: 0 -16px 0 10px;
+	border: none;
+	vertical-align: text-top;
+	zoom: 1;
+	_position: relative;
+	_padding-left: 0px;
+	_padding-right: 12px;
+	_margin-right: -10px;
+	_display: block;
+	_top: 0;
+	_right: -7px;
+
+}
+
+/*Hover Style*/
+
+.button:hover {
+	background-position: 0 -60px;
+	color: #30a4dc;
+	text-decoration: none;
+}
+
+.button:hover span,
+.button:focus span {
+	background-position: 100% -60px;
+}
+
+.button input:hover {
+	color: #3bb3f5;
+	background-position: 100% -60px;
+}
+
+.button:active, .button:focus span {
+	color: #30a4dc;
+}
+
+.button * {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* #### GRAY BUTTON ###################*/
+a.button_gray {
+	height: 38px !important;
+}
+
+a.button_gray span {
+	line-height: 28px !important;
+}
+
+a.button_gray:hover {
+	background-position: right -60px !important;
+}
+
+a.button_gray span {
+	background-position: 0 -60px !important;
+}
+
+/* #### TEXT ONLY  BUTTONS ###################*/
+.button_textonly, div.button_textonly, span.button_textonly,
+.button_textonly input, span.button_textonly button, span.button_textonly input,
+a.button_textonly span,
+a.button_textonly {
+	background-image: none !important;
+	display: inline !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	height: auto !important;
+	width: auto !important;
+	font-weight: normal !important;
+	font-size: 11px !important;
+	color: #30A4DC !important;
+	text-transform: none !important;
+	float: none !important;
+	line-height: 15px !important;
+	vertical-align: baseline !important;
+	text-decoration: underline !important;
+}
+
+/* #### LINK BUTTONS ###################*/
+
+a.button {
+	background: transparent url('../../images/adminarea/buttons.png') no-repeat scroll top right;
+	color: #444;
+	display: block;
+	float: left;
+	font-size: 12px;
+	height: 24px;
+	margin-right: 6px;
+	padding-right: 18px; /* sliding doors padding */
+	text-decoration: none;
+	margin-bottom: 9px;
+	margin-left: 2px;
+}
+
+a.button span {
+	background: transparent url('../../images/adminarea/buttons.png') no-repeat;
+	display: block;
+	line-height: 14px;
+	padding: 5px 0 5px 18px;
+	margin-left: -4px;
+}
+
+a.button_blue {
+	background-position: right -117px;
+	padding-right: 12px;
+}
+
+a:hover.button_blue {
+	background-position: right -147px;
+}
+
+a.button_blue span {
+	color: #fff;
+	background-position: left -117px;
+	padding-left: 12px;
+}
+
+a:hover.button_blue span {
+	background-position: left -147px;
+}
+
+.button_blue input,
+.button_blue * {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px !important;
+}
+
+/* #### BLUE BUTTONS (OVERRIDES DEFAULT BUTTON STYLE) ###################*/
+
+.button_blue {
+	background-position: 0 -117px;
+}
+
+.button_blue:hover {
+	background-position: 0 -147px;
+}
+
+.button_blue input {
+	background-position: 100% -117px;
+	padding: 0 9px 0 0px;
+}
+
+.button_blue:hover input {
+	background-position: 100% -147px;
+}
+
+.button_blue,
+.button_blue:hover,
+.button_blue input,
+.button_blue input:hover,
+.button:active, .button:focus span {
+	color: #fff;
+}
+
+.button_blue:hover span,
+.button_blue:focus span {
+	background-position: 100% -147px;
+}
+
+.button_blue,
+.button_blue input {
+	height: 23px;
+}
+
+/* ####  ACTION BUTTONS  ###################*/
+
+.buttons {
+	background: #fff none;
+	border: none;
+	color: #666;
+	font-size: 10px;
+	margin-top: 5px;
+	padding: 0;
+}
+
+.buttons input {
+	background: #fff;
+	border: 0;
+	color: #333;
+	cursor: pointer;
+	font-size: 10px;
+	font-weight: bold;
+	margin-left: 3px;
+	overflow: visible;
+	padding: 2px 6px;
+}
+
+.buttons input.delete {
+	background: transparent url(../../images/skin/database_delete.png) 5px 50% no-repeat;
+	padding-left: 28px;
+}
+
+.buttons input.edit {
+	background: transparent url(../../images/skin/database_edit.png) 5px 50% no-repeat;
+	padding-left: 28px;
+}
+
+.buttons input.save {
+	background: transparent url(../../images/skin/cancel.png) 5px 50% no-repeat;
+	padding-left: 28px;
+}
+
+.button-wrapper-align-left,
+.button-align-left {
+	float: left;
+}
+
+.button-wrapper-align-right,
+.button-align-right {
+	float: right;
+}
+
+.button-align-inline {
+	float: none;
+	display: inline;
+}
+
+.button-not-inline {
+	float: none !important;
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+.button-not-inline .clearme {
+	clear: both;
+	float: none;
+	display: block;
+}
+
+.registerHomeImageLink a {
+	position: absolute;
+	width: 732px !important;
+	height: 212px !important;
+	display:block!important;
+	text-indent:-424242px;
+}

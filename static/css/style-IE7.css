@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mail #tender-list ol {
+	margin-left: 5px;
+	padding-left: 20px;
+}
+
+#mail #header.mail {
+	height: 95px;
+}
+
+#primary {
+	overflow: hidden;
+}
+
+#pagination a, #pagination strong {
+	display: inline-block;
+	height: auto !important;
+}
+
+#header #main-menu #first-nav li {
+	line-height: normal;
+}
+
+#first-nav {
+	clear: both;
+	width: 100%;
+	text-align: right;
+}
+
+#search-filter .popup-box-add {
+	top: 0px;
+}
+
+#header #menu ul {
+    margin: 10px 0 -7px;
+}
+
+#header #landingpage-menu ul{
+	float: right;
+}
+
+#header #landingpage-menu h2 {
+	padding-top: 10px !important;
+}
+
+#sidebar #q_search .s_input,
+.column #q_search .s_input {
+	padding-top: 5px !important;
+}
+
+#loginform #login-area {
+	width: 555px; margin-top: 15px;
+}
+
+#menu #loginform #login-area .links {
+	margin-left: 10px;
+}
+
+#menu #loginform #login-area .submit {
+	padding: 0;
+}
+
+
+#sidebar #send-form fieldset .s_input {
+	margin-top: 5px;
+}
+
+.ui-datepicker .ui-datepicker-title { margin: 4px 2.3em 0 2.3em !important; line-height: normal !important; text-align: center; color: #fff; font-family: Rockwell; text-transform: uppercase; font-size: 15px; }
+
+.ui-datepicker .ui-datepicker-header { position:relative; padding: 0; background-color: #d60000; height: 24px !important; }

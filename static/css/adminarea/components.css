@@ -1,0 +1,332 @@
+/*   TABSHEETS  */
+
+div#tabbox {
+    padding-top: 10px;
+    overflow-x: auto;
+}
+
+.tabsheet {
+    display: none;
+    position: relative;
+    margin-top: 6px;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.subtabsheet {
+    display: none;
+    position: relative;
+    margin-top: 6px;
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 200;
+}
+
+.tab {
+    position: relative;
+    border: 1px solid #aaa;
+    padding: 2px 4px 6px 4px;
+    margin: 0 4px 0 4px;
+    background-color: #ccc;
+    font-weight: bold;
+    color: #666;
+    z-index: 200;
+    text-decoration: none;
+}
+
+.disabledTab {
+    background-color: #eee;
+    color: #ccc;
+}
+
+.currenttab {
+    background-color: #fff;
+    color: #000;
+    border-bottom-color: #fff;
+}
+
+.subtab {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 2px 4px 6px 4px;
+    margin: 0 4px 0 4px;
+    background-color: #ddd;
+    font-weight: bold;
+    color: #999;
+    z-index: 220;
+    text-decoration: none;
+}
+
+.currentsubtab {
+    background-color: #fff;
+    color: #333;
+    border-bottom-color: #fff;
+}
+
+.tabBorder {
+    padding: 10px;
+    border: 1px solid #999;
+    min-height: 400px;
+}
+
+.resultListBox {
+    max-height: 1000px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.tenderListBox {
+    max-width: 730px;
+    overflow-x: auto;
+}
+
+.littleBox {
+    margin: 4px 2px 18px 2px;
+}
+
+/* BARS
+all types of bars and link-list (alphabetic list, country-list etc...) */
+#barContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.barItem {
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.barItemActive {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #aaa;
+    background-color: #ccc;
+}
+
+/**
+    HTML-COMPONENTS
+*/
+div.htmlComponent {
+    margin-top: 20px;
+    overflow: hidden; /* add this to contain floated children*/
+}
+
+div.htmlComponent .header {
+    font-weight: bold;
+    margin-right: 20px;
+    float: left;
+}
+
+div.htmlComponent .body {
+    float: left;
+}
+
+.colgap {
+    padding-right: 30px;
+}
+
+/*  TAG-BOX
+an editable scrollable box with list-items (e.g. keywords)   */
+.tagBox {
+    min-height: 150px;
+    max-height: 400px;
+    padding: 2px;
+    margin: 2px 0 2px 2px;
+    max-width: 500px;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    overflow-y: auto;
+    line-height: 150%;
+    font-size: 10px;
+}
+
+.nodeLeftOffset {
+    width: 10px;
+}
+
+.nodeLink {
+    margin: 1px 10px 1px 0;
+    background-color: #ddddff;
+    border: 1px solid #aaaaff;
+    padding: 0 4px 0 4px;
+    color: #6666ee;
+    font-size:9px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.nodeLinkInactive {
+    margin: 1px 10px 1px 0;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    padding: 0 4px 0 4px;
+    font-family: monospace;
+    color: #666;
+    font-size:9px;
+    cursor: pointer;
+}
+
+.symbolRemoveSpan {
+    margin: 1px 10px 1px 0;
+    background-color: #ff6666;
+    border: 1px solid #cc0033;
+    padding: 1px 0 1px 4px;
+}
+
+.removeLink {
+    text-decoration: none;
+    color: #ffb138;
+    margin: 1px 10px 1px 0;
+    background-color: #ff6666;
+    border: 1px solid #cc0033;
+    padding: 1px 4px 1px 4px;
+}
+
+.removeTag {
+    color: #fff;
+    text-decoration: none;
+}
+
+.invisible {
+    display: none;
+}
+
+.nodeItem {
+    margin: 10px 0 0 40px;
+}
+
+.nodeItemDiv {
+    margin: 5px 0 5px 5px;
+}
+
+/* BREAD-CRUMBS */
+.breadcrumbbar {
+    margin: 5px 0 20px 0;
+    padding: 5px 0 5px 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.breadcrumbbaritem {
+    padding-right: 10px;
+    font-style: italic;
+}
+
+/*  SEARCHFIELDS */
+.negate {
+    background-color: #ffcccc;
+    color: #aa0000;
+}
+
+.invalidSearchFieldMessage {
+    margin: 5px 0 5px 0;
+    padding: 5px;
+    border: 1px solid #990000;
+    background-color: #fed22f;
+    color: #cc0000;
+}
+
+.invalidSearchField {
+    background-color: #fed22f;
+    border: 1px solid #990000;
+    color: #cc0000;
+}
+
+.checkboxList {
+    background-color: #ddd;
+    border: 1px solid #aaaaaa;
+    margin-bottom: 15px;
+}
+
+.leftColumn {
+    padding: 4px;
+    float: left;
+}
+
+.rightColumn {
+    padding: 4px;
+    width: 40px;
+    float: right;
+}
+
+.innerLeftColumn {
+    padding: 2px 0 2px 15px;
+    float: left;
+}
+
+.innerRightColumn {
+    padding: 2px 4px 0 0;
+    width: 40px;
+    float: right;
+}
+
+.validatortext {
+    color: #cc0000;
+    background-color: #ffff33;
+    padding: 3px 0 3px 6px;
+    margin-bottom: 5px;
+}
+
+.barContainer {
+    margin: 15px 0 20px 0;
+}
+
+
+/*  email-fields  */
+.emailBox {
+    overflow-y: auto;
+    padding: 5px;
+    height: 150px;
+    background-color: #fff;
+}
+
+.emailBoxWrapper {
+    overflow: hidden;
+    border: 1px solid #aaaacc;
+    background-color: #eee;
+    height: 200px;
+}
+
+.removeEmailField {
+    margin-left:5px;
+    margin-right: 10px;
+    border:1px solid #ff8b93;
+    background-color: #ffcccc;
+    color: #ff8b93;
+    padding: 0 3px 0 3px;
+    float: left;
+    cursor: pointer;
+}
+
+.addEmailField {
+    text-align: center;
+    cursor: pointer;
+}
+
+.emailBoxRow {
+    margin: 5px;
+}
+
+/*  attachment-fields  */
+.attachmentBox {
+    overflow-y: auto;
+    padding: 5px;
+    height: 150px;
+    background-color: #fff;
+    border: 1px solid #aaaacc;
+}
+
+.removeAttachmentField {
+    margin-left:5px;
+    margin-right: 10px;
+    border:1px solid #ff8b93;
+    background-color: #ffcccc;
+    color: #ff8b93;
+    padding: 0 3px 0 3px;
+    float: left;
+    cursor: pointer;
+}
+
+.attachmentBoxRow {
+    margin: 5px 0 5px 0;
+}

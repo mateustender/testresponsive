@@ -1,0 +1,73 @@
+/*
+This file is supposed to be used for CSS adaptions for the CKEditor.
+
+Do not delete this file even it might be empty as it is mandatory for inclusion of the
+"ck_editor" Grails resources module in "_jsconfig.gsp".
+
+For information can also be found in ticket #11436.
+*/
+
+
+h1, h2, h3, h4, h5, h6, .h2, .h3 {
+    font-weight: normal;
+    margin: 0 0 0.7em;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    color: #D60000;
+}
+
+h2, .h2 {
+    font-size: 20px;
+    color: #326154;
+    line-height: 1.2em;
+    margin: 8px 10px 16px;
+}
+
+h3, .h3 {
+    color: #d60000;
+    font-size: 15px;
+}
+/*h4 bg-grey*/
+h4 {
+    font-weight: normal;
+}
+.control-legend {
+    background: #f8f9f9;
+    border-top: 1px solid #b6c7c2;
+    padding-left: 14px;
+    line-height: 32px;
+    margin-bottom: 14px;
+    margin-top: 22px;
+}
+/*Grey Background*/
+.item14 {
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 10px;
+}
+.mb0 {margin-bottom: 0 !important;}
+
+.teaser-light-bg { background: #efefef url('../../images/gray-bg.png'); }
+
+/*bullet points*/
+ul.arrows {
+    color: #0d4435;
+    overflow: hidden;
+    margin-bottom: 3px;
+}
+ul.dots {
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    color: #0d4435;
+    padding: 3px 5px 2px;
+}
+ul.hooklets {
+    color: #0d4435;
+    overflow: hidden;
+    margin-bottom: 3px;
+}

@@ -1,0 +1,46 @@
+#iframecontainer {
+    text-align:left;
+    width: 900px;
+    height: 900px;
+    left: 50%;
+    margin-left: -450px;
+    display: none;
+    position: fixed;
+    background:#FFF;
+    border: 1px solid #555;
+    box-shadow: 2px 2px 40px #222;
+    z-index: 999999;
+}
+
+#iframecontainer iframe {
+    display:none;
+    width: 900px;
+    height: 895px;
+    position: absolute;
+    border: none;
+    left: 50%;
+    text-align: center;
+    margin-left: -450px;
+    border-top-width: 0;
+}
+
+#loader {
+    background: url('../images/adminarea/spinner.gif');
+    background-position: center;
+    background-repeat:no-repeat;
+    width: 900px;
+    height: 900px;
+    margin:auto;
+}
+
+#block {
+    background: #000;
+    opacity:0.6;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 8000;
+    display:none;
+}

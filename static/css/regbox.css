@@ -1,0 +1,245 @@
+/* ---------------------------- */
+#reg-box {
+    position: absolute;
+    background: #FFF;
+    width: 240px;
+    right: 40px;
+    top: -10px;
+    z-index: 999;
+}
+#reg-box .links {
+    font-family: Tahoma, sans-serif;
+    text-align: right;
+    /*font-size: 14px;*/
+    padding: 0 15px 6px;
+}
+#reg-box form {
+    border: 1px solid #567c72;
+}
+#reg-box fieldset {
+    border-color: #7A888B;
+    border-style: solid none;
+    border-width: 1px medium;
+    margin: 0;
+    padding: 7px 12px 0;
+}
+#reg-box input, #reg-box select, #reg-box .l2112select {
+    width: 211px;
+    background-color: #efefef;
+    margin: 0 0 7px;
+    padding-left: 5px;
+}
+
+#reg-box .errorTip { bottom: 0px; left: 175px; }
+
+#reg-box input[type="checkbox"] { width: 13px; height: 13px; }
+
+#reg-box .title {
+    height: 33px;
+    background: #567c72 url('../images/green-shadow.png') repeat-x 0 bottom;
+}
+#reg-box h3 {
+    color: #FFF;
+    font-weight: normal;
+    border: none;
+    margin: 0;
+    line-height: 33px;
+    padding-left: 12px;
+    font-size: 16px;
+}
+#reg-box .text {
+    font-family: Tahoma, sans-serif;
+    color: #d60000;
+    font-size: 15px;
+    padding: 0 0 0 12px;
+}
+#reg-box .secure, .column-box .secure {
+    margin: 10px 12px 6px;
+    text-align: right;
+    background: url('../images/secure.png') no-repeat left bottom;
+}
+#reg-box .btn-red, .btn-red, .btn-green{
+    background: #d60000;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    height: auto;
+    box-shadow: 3px 3px 3px #AAAAAA;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 4px 0;
+    width: 160px;
+}
+/* ---------reg-box-inner-------- */
+#reg-box-inner { }
+#reg-box-inner .box-title{
+    color: #FFF;
+    background: #D60000 url('../images/h-bg-w.png') no-repeat -1379px 24px;
+    font-size: 20px;
+    height: 62px;
+    margin: 0;
+    padding: 16px 23px 0;
+    position: relative;
+}
+#reg-box-inner .box-title p{
+    margin:0;
+}
+#reg-box-inner .box-content {
+    border: 1px solid #567c72;
+    overflow: hidden;
+    padding: 14px 28px;
+}
+#reg-box-inner .box-content-none-border {
+    border: 1px solid transparent;
+    overflow: hidden;
+    padding: 14px 28px;
+    position: relative;
+}
+#reg-box-inner .arrow {
+    background: url('../images/arrow.png') no-repeat 0 0;
+    height: 11px;
+    width: 22px;
+    position: absolute;
+    bottom: -11px;
+    left: 390px;
+}
+#reg-box-inner form {
+    float: right;
+    border-left: 1px solid #CCC;
+    padding-left: 30px;
+}
+#reg-box-inner .label {
+    width: 77px;
+    float: left;
+    line-height: 23px;
+}
+#reg-box-inner .inputs { margin-left: 77px; }
+#reg-box-inner .secure { margin: 8px 0 0 80px; }
+#reg-box-inner .h2 { margin-left: 0; margin-bottom: 8px;}
+#reg-box-inner #tender-view-reg-form{ float: right;  min-height: 220px; }
+
+/* ----column-box regbox and teaser regbox---- */
+#reg-box-inner #tender-view-reg-form #reg-box, #reg-box-inner .column-view-reg-form #reg-box{
+    top:0;
+    right:0;
+    position:relative;
+}
+#reg-box-inner #tender-view-reg-form #reg-box form{
+    width:255px;
+    border-width:0px;
+    border-left: 1px solid #CCCCCC;
+    padding-left: 50px;
+}
+#reg-box-inner .column-view-reg-form{
+     width: 90%;
+     float: right;
+     min-height: 220px;
+     overflow: hidden;
+     padding-left: 65px;
+ }
+#reg-box-inner #tender-view-reg-form #reg-box form fieldset, #reg-box-inner .column-view-reg-form #reg-box form fieldset{
+    border-width:0px;
+}
+#reg-box-inner #tender-view-reg-form #reg-box form .secure, #reg-box-inner .column-view-reg-form #reg-box form .secure{
+    margin:8px 0 0 15px;
+    width:210px;
+}
+#reg-box-inner #tender-view-reg-form #reg-box form .secure #register, #reg-box-inner .column-view-reg-form #reg-box form .secure #register{
+    background-color:#0D4435;
+}
+#reg-box-inner .column-view-reg-form #reg-box form{
+    width: 100%;
+    border-width:0px;
+    border-left: 1px solid transparent;
+    padding-left: 50px;
+}
+
+/* ----sidebar ---- */
+#sidebar #quickRegForm .input-middle {
+    width: 80% !important;
+}
+
+#sidebar #reg-box-inner .column-view-reg-form #reg-box form fieldset .l2112select {
+    width: 85%;
+}
+
+#sidebar #reg-box-inner .column-view-reg-form #reg-box form{
+    width:95%;/
+}
+
+#sidebar #reg-box-inner .column-view-reg-form #reg-box form .secure{
+    margin:8px -8px 0px;
+}
+
+/*changed width to 100%*/
+#sidebar #reg-box-inner .column-view-reg-form{
+    width: 100%;
+}
+
+/* changed width  and border*/
+#reg-box-inner .column-view-reg-form #reg-box form{
+    width: 100%;
+    border-width:0px;
+    border-left: 1px solid transparent;
+    padding-left: 50px;
+}
+
+/*-------landing page------*/
+#landingpage #reg-box {
+    position: absolute;
+    background: #567C72;
+    width: 475px;
+    right: 0px;
+    top: 286px;
+    z-index: 999;
+}
+#landingpage #reg-box .text {
+    padding: 0 100px 0 12px;
+}
+#landingpage #reg-box .box-title {
+    color: #FFF;
+    background: #D60000 url('../images/h-bg-w.png') no-repeat -1297px -0px;
+    height: 34px;
+    margin: 0;
+    position: relative;
+}
+
+#landingpage #reg-box .arrow {
+    background: url('../images/arrow.png') no-repeat 0 0;
+    height: 11px;
+    width: 22px;
+    position: absolute;
+    bottom: -11px;
+    left: 40px;
+}
+#landingpage #reg-box .box-title h3{
+    margin:0px;
+    padding: 0 23px 0;
+}
+#landingpage #reg-box fieldset {
+    border-style: none;
+}
+#landingpage #reg-box form, #landingpage .column-box form {
+    background: #FFFFFF;
+    border-top: none;
+}
+#landingpage #reg-box #form-container {
+    padding-bottom: 25px;
+}
+#landingpage #reg-box .secure {
+    margin-top: 0;
+}
+
+#landingpage #reg-box .secure p, #landingpage .column-box .secure p {
+    text-align: left;
+    margin-top: 0;
+}
+#landingpage #reg-box-inner .column-view-reg-form #reg-box{
+    top:0;
+    right:-15px;
+    position:relative;
+}
+
+

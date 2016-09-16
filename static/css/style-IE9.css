@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+#premium-services ul li, 
+#header #main-menu #first-nav li a.selected,
+#reg-box .btn-red, .btn-red, .btn-green, #reg-box .btn-orange, .btn-orange {
+	behavior: none !important;
+}
+

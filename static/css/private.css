@@ -1,0 +1,102 @@
+.errMsg {
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffcc;
+    color: #cc0000;
+    border: 1px solid #aa0000;
+}
+
+.warnMsg {
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.beginDate .date-slider, .endDate .date-slider  {
+    font-size: 9px;
+    width: 50px;
+}
+
+.transparent {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.disabled {
+    background-color: #ddd;
+    color: #333;
+}
+
+.field {
+    border: 1px solid #656565;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.dateField {
+    border: 1px inset #0D4435;
+    width: 120px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.subtleText {
+    color:#666;
+    font-size:10px;
+    font-weight:normal;
+}
+
+.tabBorder {
+    padding: 10px;
+    border: 1px solid #ffd5c2;
+    min-height: 400px;
+}
+
+/**
+Searchfield- settings
+**/
+
+.multiselectbox {
+    border:1px solid #aaa;
+    padding: 4px;
+    min-height: 250px;  /* work-around for code in style-css */
+}
+
+.multiselectColumn {
+    float: left;
+    margin: 2px 8px 2px 0;
+}
+
+.negate {
+    background-color: #ffcccc;
+    color: #aa0000;
+}
+
+.simpleTextFieldBG {
+    background-color: #ffffdd;
+}
+
+.mediumContainer {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    overflow: auto;
+    height: 200px;
+    width: 95%;
+}
+
+.smallContainer {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    overflow: auto;
+    height: 100px;
+    width: 95%;
+}
+
+.remarkable {
+    color: #cc0000;
+}

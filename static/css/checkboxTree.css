@@ -1,0 +1,24 @@
+.checkbox-tree-ul {
+    padding-left: 30px;
+}
+
+.tree-anchor {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 15px;
+}
+
+.tree-anchor-plus {
+    background-image: url('../images/tree/plus.gif');
+}
+
+.tree-anchor-minus {
+    background-image: url('../images/tree/minus.gif');
+}
+
+.checkbox-tree-label {
+    color: #999999;
+    position: relative;
+    right: 20px;
+}

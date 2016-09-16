@@ -1,0 +1,26 @@
+
+/*    FORMATTING FOR TED-TENDER TEXT CORPUS  (HTML)  */
+
+
+.TED_FullText	{width: 100%;}
+.TED_stidoc		{font-weight: bold;text-align: center;}
+
+.TED_nomark		{
+				margin-top:10px;
+				/* position: absolute; -> removed from original to be compatible with TS2 layout */
+				left: 0pt;
+				display: inline-block;
+				width: 60px;
+				text-align: right;
+				}
+
+.TED_timark		{margin-top:10px;display: block;margin-left: 70px;font-weight: bold;}
+.TED_tigrseq	{margin-top:10px;font-weight: bold;text-decoration: underline;}
+.TED_txtmark	{margin-left:70px;}
+.TED_formatText	{display: block;}
+.TED_normalText	{padding-top: 0pt;padding-right: 0pt;padding-bottom: 0pt;padding-left: 0pt;}
+
+.TED_intfor		{font-weight: bold;text-decoration: underline;}
+.TED_intread	{font-weight: bold;text-decoration: underline;}
+.TED_addr		{display: block;}
+.TED_noAddr		{padding-top: 0pt;padding-right: 0pt;padding-bottom: 0pt;padding-left: 0pt;}

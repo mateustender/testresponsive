@@ -1,0 +1,54 @@
+body {
+   background: white;
+   font-size: 12pt;
+}
+h1, h2, h3, h4, h5, h6, .h2, .h3 {
+	font-family: Tahoma, "Lucida Sans", serif
+}
+.trackingCode {
+    display: none;
+}
+#sidebar, #footer, #detail .detail-options, .togglebox .toggle-btn, .breadcrumbs, .footer, #main-menu, #menu, #content #reg-box-inner .box-title, #content #reg-box-inner .box-content, .hide-on-print{
+   display: none;
+}
+#wrapper, #content {
+   width: auto;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   float: none !important;
+   color: black;
+   background: transparent none;
+}
+div#content {
+   margin: 0;
+   padding-top: 5%;
+   border-top: 1px solid #666;
+}
+
+a:link, a:visited {
+   color: #000;
+   background: transparent;
+   font-weight: normal;
+}
+#content a:link:after, #content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+}
+
+#content .togglebox .title {
+	background: none;
+	padding: 15px 0;
+}
+
+#content .togglebox .text-content  {
+	padding: 14px 0;
+}
+
+#feedback {
+    display: none;
+}
+
+#logoImg {
+   width: 260px;
+}

@@ -1,0 +1,521 @@
+.admin table {
+    /*	width: 720px; */
+    border: 1px solid #ddd;
+}
+
+.list table {
+    border-collapse: separate !important;
+}
+
+/* #### TABLES ###################*/
+.admin td, .admin th {
+    padding: 5px 12px 5px 4px;
+}
+
+span.legend {
+    float: right;
+    font-size: 11px;
+    color: #30a4dc;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.admin fieldset {
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+.infoTab {
+    padding: 10px;
+    border: 1px solid #999;
+    min-height: 400px;
+    background-color: #fff;
+}
+
+.prop .name {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd !important;
+    font-weight: bold;
+    background: #eee;
+}
+
+.prop .value {
+    border-bottom: 1px solid #ddd;
+    background: #F7F7F7;
+}
+
+.prop .date {
+    border-bottom: 1px solid #ddd;
+    background: #F7F7F7;
+}
+
+.prop .number {
+    border-bottom: 1px solid #ddd;
+    background: #F7F7F7;
+}
+
+.prop .checkbox {
+    border-bottom: 1px solid #ddd;
+    background: #F7F7F7;
+}
+
+.odd {
+    background: #f7f7f7;
+}
+
+.even {
+    background: #fcfcfc;
+}
+
+tr.inactive {
+    background: #aaa;
+    color: #666;
+}
+
+.nav {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.admin #layoutcontent {
+    background-image: none;
+    width: 730px;
+}
+
+#layoutContentSimple {
+	background-image: none;
+    float: left;
+    padding: 10px;
+}
+
+.detailinfo {
+    margin: 0 0 0;
+    border: 1px solid #DDDDDD;
+    border-width: 1px;
+    padding: 7px 12px;
+}
+
+/* #### MENU ###################*/
+#mainmenu .back {
+    float: right;
+    background: none !important;
+}
+
+.tenderTitleLink {
+    min-width: 200px;
+    max-width: 700px;
+}
+/* #### CRM - Historylist ###################*/
+
+.historybox {
+    width: 650px;
+    position: relative
+}
+
+.historymessagetext {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 3px;
+    color: #333;
+    border: 1px solid #ddd;
+    background-color: #ffffcc;
+    width: 350px;
+    font-size: 10px;
+    display: none;
+}
+
+.historylistitem {
+    margin: 10px
+}
+
+.historylistbuttons {
+    right: 0;
+    position: absolute
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+/* #### CMS ###################*/
+.adminmenu ul {
+    margin-left: 9px;
+}
+
+.adminmenu li {
+    margin-left: 4px;
+}
+
+.adminmenu .level0Title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+    display: block;
+    white-space: nowrap;
+}
+
+.adminmenu .submenu {
+    margin-left: 15px;
+}
+
+.languageSelect {
+    float: right;
+}
+
+.admin .showIfActive {
+    display: none;
+}
+
+.admin .active .showIfActive {
+    display: block;
+}
+
+.admin span.active a {
+    font-weight: bold;
+}
+
+.admin .boxheader a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.admin .boxheader a:hover {
+    text-decoration: underline;
+}
+
+.admin .boxheader {
+    background: #DDDDDD;
+    color: #222;
+    font-size: 10px;
+    white-space: nowrap;
+}
+
+.admin .active .boxheader {
+    background: url("../../images/adminarea/sprite_icons.png") no-repeat scroll 3px -11px #DDDDDD;
+    color: #222;
+}
+
+.admin .boxheader a {
+    color: #222;
+}
+
+.admin .box li {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.admin .box ul {
+    margin-bottom: 10px;
+}
+
+/* #### TEMPLATE LIST ###################*/
+
+.editCol {
+    width: 150px;
+}
+
+/* #### CMS PAGE LIST ###################*/
+.cmsPageList li {
+    float: left;
+    clear: both;
+    padding: 5px 0;
+}
+
+.cmsPageList li:hover .pagename {
+    background: #eee;
+}
+
+.cmsPageList .buttonform {
+    padding-left: 20px;
+    float: left;
+}
+
+.cmsPageList .buttonform input {
+    cursor: pointer;
+    background: #eee;
+    border: 1px solid #ccc;
+    font-size: 10px;
+}
+
+.cmsPageList .pagename {
+    padding: 1px 3px;
+    float: left;
+}
+
+.rootPage {
+    width: 100%;
+    padding-top: 5px;
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+}
+
+.subPage {
+    background: url("../../images/tree/hor_line.png") repeat-x 0 8px;
+    border-left: 1px solid #686868;
+    margin-left: 15px;
+}
+
+.cmsPageList .content {
+    background: #fff;
+    float: left;
+    padding-left: 5px;
+}
+
+/* #### BUTTONS ###################*/
+
+.admin .nav {
+    margin: 0 0 0px 0;
+}
+
+.admin .button,
+.admin .button input {
+    color: #fff;
+}
+
+.admin .buttons {
+    float: right;
+    margin-bottom: 9px;
+}
+
+.admin .button {
+    background: none;
+    float: right;
+}
+
+.admin .button input {
+    background-color: #30A4DC;
+    border: 3px #00008b outset;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.ui-tabs .ui-tabs-panel {
+    padding: 2px;
+}
+
+/* widget: box for special purposes with a header and a footer bar */
+.admin .widget {
+    border: 1px solid #aaa;
+}
+
+.widget .header {
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.widget .footer {
+    border-top: 1px solid #ccc;
+    background-color: #eee;
+}
+
+/*  tutorial */
+.tutorial {
+
+    line-height: 1.5;
+    width: 600px;
+}
+
+ul .tutorial {
+    list-style: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.tutorial .img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tutorial .img .description {
+    font-size: smaller;
+    font-style: italic;
+    color: #666;
+}
+
+.tutorial .chapter {
+    margin-top: 30px;
+}
+
+.tutorial .infobox {
+    border: 1px solid #aaaacc;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tutorial .infobox .header {
+    background: #30a4dc;
+    color: #fff;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.cmssidebar .menuButton {
+    width: 100%;
+    display: block;
+}
+
+.customCssEdit textarea {
+    width: 600px;
+    height: 600px;
+}
+
+.commandButton {
+    background: #a7d8dc;
+    text-decoration: none;
+    color: #333;
+    padding: 2px;
+    font-weight: bold;
+    margin: 5px 7px 1px 0;
+    border: 1px solid #727483;
+}
+
+.commandButtonAlert {
+    background: #ac0000;
+    text-decoration: none;
+    color: #fff;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px 7px 1px 0;
+    border: 1px solid #831212;
+}
+
+.commandLink {
+    background-color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    padding: 1px 4px 1px 4px;
+    margin-right: 5px;
+}
+
+.enabled {
+    background-color: #00cc00;
+    padding: 0 5px 0 5px;
+}
+
+.disabled {
+    background-color: #ccc;
+    padding: 0 5px 0 5px;
+}
+
+.inactive {
+    background-color: #ccc;
+    padding: 5px 0 5px 3px;
+}
+
+.node {
+    background-color: #eee;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin-right: 3px;
+}
+
+.message,
+.submitbuttons {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.message {
+    width: 680px;
+}
+
+.submitbuttons .button {
+    margin: 10px 0 10px 10px;
+}
+
+.info-tooltip {
+    background: url(../../images/skin/information.png) no-repeat right top;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.info-tooltip label {
+    cursor: pointer;
+}
+
+
+.descreetList {
+    margin: 10px 2px 0 15px;
+}
+
+.descreetListItem {
+    list-style: disc;
+    font-size: 10px;
+    color: #666;
+    font-style: italic;
+}
+
+.alert{
+    color:#bb0000;
+    font-stretch: expanded;
+    font-size: 12px;
+}
+
+/** specific overlay for tender-view */
+div.tenderOverlay {
+    display: none;
+    position: absolute;
+    width: 480px;
+    padding: 10px;
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #999aaa;
+    font-size: 90%;
+}
+
+.tenderOverlay table{
+	/*height: 500px; */
+	overflow: auto;
+	display: block;
+}
+
+.fieldColumn {
+    float: left;
+    margin: 2px 8px 2px 0;
+}
+
+.relative {
+	position: relative;
+}
+
+.remarkable {
+    color: #cc0000;
+}
+
+
+/**
+color-marker for deadline-dates
+**/
+.deadlineNormal {
+    color: #00aa00;
+}
+
+.deadlineUrgent {
+    color: #d17c0f;
+}
+
+.deadlinePassed {
+    color: #cc0000;
+}
+
+/**
+* Autocomplete box
+**/
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
